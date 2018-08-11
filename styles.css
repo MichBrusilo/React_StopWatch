@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  width: 100%;
+}
+
+.container {
+  width: 50%;
+  position: absolute;
+  background-color: #b8e994;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: wrap;
+  white-space: nowrap;
+}
+
+a {
+  text-align: center;
+  color: #eb2f06;
+  flex: 1;
+}
+
+.stopWatch {
+  width: 100%;
+  font-size: 2em;
+  text-align: center;
+}
+
+.results {
+  width: 100%;
+  color: white;
+  margin-top: 20px;
+}
+
+.results p {
+  text-align: center;
+}
